@@ -1,8 +1,3 @@
-import sys
-sys.path.append('../')
-
-from util.helper import print_grid
-
 from heapq import heappop, heappush
 
 def in_bounds(i, j, n):
